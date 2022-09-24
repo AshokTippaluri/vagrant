@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
   sudo install kubectl /usr/local/bin/kubectl # Installing kubectl
   kubectl version --client -o json            # checking the installation
   # install virtualbox
-  apt install -y virtualbox virtualbox-ext-pack 
+  # apt install -y virtualbox virtualbox-ext-pack 
 
   echo "Installization is sucessful"
   
